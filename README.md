@@ -1,10 +1,10 @@
 # eureka-server
   
-start eureka-server first then start other services  
-For load docker image: 
-	command: docker load
+For packing spring boot project to docker repo: 
+	command: mvn compile jib:dockerBuild
  
-reference: https://docs.docker.com/reference/cli/docker/image/load/
+reference: https://github.com/GoogleContainerTools/jib/tree/master/jib-maven-plugin
+
 
 
 After loading all images in your docker, run a container of mysql. The container's username is root and the password is root123456 and the port is 3306
