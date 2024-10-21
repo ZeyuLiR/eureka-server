@@ -25,6 +25,8 @@ After login, you need to start stripe webhook listening
 
 Reference: https://docs.stripe.com/webhooks
 
+If all the preparations have done, you can open the localhost:3000 to visit the service
+
 
 
 The github links of source code:
